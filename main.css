@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Shared styles */
 .font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
-.btn{
+
+.btn {
     background-color: #FD6E0A;
     border: none;
     padding: 18px 35px;
@@ -25,18 +27,19 @@
     padding-top: 50px;
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: left top, right bottom ;
+    background-position: left top, right bottom;
     height: 837px;
 }
+
 nav {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
-    display: flex;  
+    display: flex;
     justify-content: space-between;
 }
 
-nav #logo h2{
+nav #logo h2 {
     font-family: sans-serif;
     font-size: 45px;
     font-weight: 900;
@@ -46,7 +49,8 @@ nav #logo h2{
     color: #FD6E0A;
 
 }
-.menu{
+
+.menu {
     list-style: none;
     display: flex;
     gap: 51px;
@@ -60,27 +64,29 @@ nav #logo h2{
     font-weight: 600;
     color: #474747;
 }
-#benar{
+
+#benar {
     margin: 46px 38px 0 230px;
     display: flex;
     align-items: center;
-    justify-content: center; 
-} 
-.benar-content{
+    justify-content: center;
+}
+
+.benar-content {
     font-size: 45px;
-    font-weight: 600 ;
+    font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
 }
 
-.benar-name{
+.benar-name {
     font-size: 85px;
     font-weight: bold;
-    color:  #181818;
+    color: #181818;
     margin-bottom: 20px;
 }
 
-.paragroph{
+.paragroph {
     width: 585px;
     height: 60px;
     font-size: 18px;
@@ -90,7 +96,8 @@ nav #logo h2{
     line-height: 30px;
 
 }
-.dicon{
+
+.dicon {
     width: 20px;
     height: 20px;
     margin-right: 20px;
@@ -98,95 +105,99 @@ nav #logo h2{
     fill: wheat;
     filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(203deg) brightness(11649%) contrast(119%);
 }
-.divsection{
+
+.divsection {
     width: 585px;
-    
+
 }
-.benar-img{
+
+.benar-img {
     height: 584px;
     vertical-align: middle;
 }
- #outer-about{
-    max-width: 1140px;
+
+#outer-about {
     height: 550px;
-    background-color: #FFF8F3;  
+    background-color: #FFF8F3;
     margin: 130px 230px;
     align-items: center;
-    position: relative;
-} 
+    display: flex;
+    justify-content: center;
+}
 
-#inndr-about{
-    position: absolute;
+#inndr-about {
     height: 288px;
-    width: 827px;
     max-width: 827px;
     margin: 131px 157px;
     text-align: center;
 }
 
-.about{
+.about {
     font-weight: bold;
     font-size: 35px;
     color: #181818;
     margin-bottom: 30px;
 }
 
-.paragroph1{
+.paragroph1 {
     color: #757575;
     line-height: 30px;
     font-size: 18px;
     margin-bottom: 30px;
-    
+
 }
-#about-info{
+
+#about-info {
     display: flex;
     justify-content: space-around;
 }
 
-.card p p p p{
+.card p p p p {
     font-size: 20px;
     line-height: 30px;
     font-weight: regular;
 }
 
-.card h3 h3 h3 h3{
+.card h3 h3 h3 h3 {
     font-size: 20px;
     font-weight: bold;
     line-height: 30px;
     color: #181818;
 }
 
-#skillSection{
+#skillSection {
     height: 855px;
-    width: 1600px;
-    padding-top: 130px;
     text-align: center;
-    /* border: 4px solid #E0E0E0; */
 }
-#skillContainer{
+
+#skillContainer {
     max-width: 1140px;
-    margin: 130px auto;
+    margin: 0 auto;
     padding-top: 130px;
 
 }
-#skillConainerDiv{
+
+#skillConainerDiv {
     width: 827px;
     height: 168px;
     margin: 0 auto 50px;
 }
-#skillConainerDiv #skillHeading{
+
+#skillConainerDiv #skillHeading {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 30px;
 }
-#skillParagroph{
+
+#skillParagroph {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     padding-bottom: 50px;
 }
-#skillSection #skillConainer #cardContainer{
+
+#skillSection #skillConainer #cardContainer {
     width: 71%;
     max-width: 1140px;
     height: 377px;
@@ -197,42 +208,55 @@ nav #logo h2{
     text-align: left;
 
 }
-#skillSection #skillConainer #cardContainer div{ 
+
+#skillSection #skillConainer #cardContainer div {
     width: 267px;
     height: 377px;
     padding: 30px;
-    box-shadow: 5px 5px 38px -6px rgba(0,0,0,0.75);
--webkit-box-shadow: 5px 5px 38px -6px rgba(0,0,0,0.75);
--moz-box-shadow: 5px 5px 38px -6px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 38px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 38px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 38px -6px rgba(0, 0, 0, 0.75);
 }
-#skillSection #skillConainer #cardContainer div img{
+
+#skillSection #skillConainer #cardContainer div:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 50px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 50px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 50px -6px rgba(0, 0, 0, 0.75);
+}
+
+#skillSection #skillConainer #cardContainer div img {
     max-width: 44px;
     margin-bottom: 30px;
 }
-#skillSection #skillConainer #cardContainer div h3{
+
+#skillSection #skillConainer #cardContainer div h3 {
     font-size: 20px;
     font-weight: bold;
     color: #757575;
     margin-bottom: 20px;
 }
-#skillSection #skillConainer #cardContainer div p{
+
+#skillSection #skillConainer #cardContainer div p {
     font-weight: 16px;
     line-height: 28px;
     color: #757575;
     font-weight: regular;
 }
-.resome{
-    width: 1600px;
-    height: 911px; 
-    text-align: center; 
+
+.resome {
+    height: 911px;
+    text-align: center;
     margin-bottom: 30px;
 }
-.resome .resome-container{
+
+.resome .resome-container {
     max-height: 716px;
     max-width: 1140px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
-.resome .resome-container .resome-heading{
+
+.resome .resome-container .resome-heading {
     width: 455px;
     height: 48px;
     color: #181818;
@@ -240,37 +264,43 @@ nav #logo h2{
     margin: 0 auto;
     margin-bottom: 113px;
 }
-.resome .resome-container .resomedetails{
+
+.resome .resome-container .resomedetails {
     display: flex;
     justify-content: space-around;
     text-align: left;
     gap: 24px;
 }
-.resome .resome-container .resomedetails .myEducation h2{ 
+
+.resome .resome-container .resomedetails .myEducation h2 {
     font-size: 30px;
-    font-weight: bold; 
-    margin-bottom: 30px;    
+    font-weight: bold;
+    margin-bottom: 30px;
 }
-.resome .resome-container .resomedetails .myEducation div{ 
+
+.resome .resome-container .resomedetails .myEducation div {
     width: 511px;
     height: 175px;
-    
+
 }
-.resome .resome-container .resomedetails .myEducation h3{
+
+.resome .resome-container .resomedetails .myEducation h3 {
     font-size: 25px;
     font-weight: bold;
     color: #474747;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 }
-.resome .resome-container .resomedetails .myEducation h4{
+
+.resome .resome-container .resomedetails .myEducation h4 {
     margin-bottom: 20px;
     clear: #757575;
     font-weight: semi-bold;
     font-weight: 20px;
-    
-    
+
+
 }
-.resome .resome-container .resomedetails .myEducation p{
+
+.resome .resome-container .resomedetails .myEducation p {
     font-size: 18px;
     line-height: 28px;
     color: #757575;
@@ -278,35 +308,124 @@ nav #logo h2{
 
 }
 
-.myExperience h2{ 
+.myExperience h2 {
     font-size: 30px;
-    font-weight: bold; 
-    margin-bottom: 30px;    
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.myExperience div{ 
+.myExperience div {
     width: 511px;
     height: 175px;
-    
+
 }
-.myExperience h3{
+
+.myExperience h3 {
     font-size: 25px;
     font-weight: bold;
     color: #474747;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 }
-.myExperience h4{
+
+.myExperience h4 {
     margin-bottom: 20px;
     clear: #757575;
     font-weight: semi-bold;
     font-weight: 20px;
-    
-    
-}   
-.myExperience p{
+
+
+}
+
+.myExperience p {
     font-size: 18px;
     line-height: 28px;
     color: #757575;
     margin-bottom: 30px;
 
-}   
+}
+
+.footer {
+    background-color: #FFF8F3;
+    height: 780px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer {
+    height: 520px;
+    max-width: 1140px; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 117px;
+}
+
+.footerContainer div h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footerContainer div {
+    height: 56px;
+    font-weight: regular;
+    font-size: 16px;
+    color: #474747;
+}
+
+.footerContainer ul {
+    margin-top: 30px;
+    display: flex;
+}
+
+.footerContainer ul li {
+    list-style: none;
+    margin-right: 24px;
+}
+
+.massagebox h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
+
+}
+
+.massagebox form input[type="text"] {
+    width: 461px;
+    height: 64px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 24px;
+
+}
+
+.massagebox form input[type="email"] {
+    width: 461px;
+    height: 64px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 24px;
+
+}
+
+.massagebox form textarea {
+    width: 461px;
+    height: 180px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 24px;
+}
+
+.massagebox form button {
+    display: block;
+}
+.margin {
+    margin-top: 50px;
+}

@@ -26,6 +26,7 @@
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left top, right bottom ;
+    height: 837px;
 }
 nav {
     width: 71%;
@@ -96,4 +97,53 @@ nav #logo h2{
 .benar-img{
     height: 584px;
     vertical-align: middle;
+}
+ #outer-about{
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;  
+    margin: 130px 230px;
+    align-items: center;
+    position: relative;
+} 
+
+#inndr-about{
+    position: absolute;
+    height: 288px;
+    width: 827px;
+    max-width: 827px;
+    margin: 131px 157px;
+    text-align: center;
+}
+
+.about{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.paragroph1{
+    color: #757575;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+#about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card p p p p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: regular;
+}
+
+.card h3 h3 h3 h3{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #181818;
 }

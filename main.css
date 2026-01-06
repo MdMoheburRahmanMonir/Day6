@@ -99,7 +99,7 @@ nav #logo h2{
     vertical-align: middle;
 }
  #outer-about{
-    width: 1140px;
+    max-width: 1140px;
     height: 550px;
     background-color: #FFF8F3;  
     margin: 130px 230px;
@@ -146,4 +146,69 @@ nav #logo h2{
     font-weight: bold;
     line-height: 30px;
     color: #181818;
+}
+
+#skillSection{
+    height: 1270px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+#skillContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+#skillConainerDiv{
+    width: 827px;
+    height: 168px;
+    margin: 0 auto 50px;
+}
+#skillConainerDiv #skillHeading{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+#skillParagroph{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+#skillSection #skillConainer #cardContainer{
+    width: 71%;
+    max-width: 1140px;
+    height: 377px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: left;
+
+}
+#skillSection #skillConainer #cardContainer div{
+    border: 1px solid #E0E0E0;
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    box-shadow: 5px 5px 38px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 5px 38px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 5px 38px -6px rgba(0,0,0,0.75);
+}
+#skillSection #skillConainer #cardContainer div img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+#skillSection #skillConainer #cardContainer div h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #757575;
+    margin-bottom: 20px;
+}
+#skillSection #skillConainer #cardContainer div p{
+    font-weight: 16px;
+    line-height: 28px;
+    color: #757575;
+    font-weight: regular;
 }

@@ -398,6 +398,7 @@ nav #logo h2 {
     width: 461px;
     height: 64px;
     font-weight: bold;
+    padding: 18px 31px;
     font-size: 16px;
     color: #181818;
     margin-bottom: 24px;
@@ -409,6 +410,7 @@ nav #logo h2 {
     height: 64px;
     font-weight: bold;
     font-size: 16px;
+    padding: 18px 31px;
     color: #181818;
     margin-bottom: 24px;
 
@@ -418,6 +420,7 @@ nav #logo h2 {
     width: 461px;
     height: 180px;
     font-weight: bold;
+    padding: 14px 31px;
     font-size: 16px;
     color: #181818;
     margin-bottom: 24px;
